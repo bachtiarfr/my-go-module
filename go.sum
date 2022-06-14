@@ -1,0 +1,6 @@
+github.com/bachtiarfr/my-go-library v0.0.0-20220614183709-0990d3a1bba2 h1:NQCgm3qtJJOsVmCJ7q4iUjFlMFQ28yoN0ire+WtLjEo=
+github.com/bachtiarfr/my-go-library v0.0.0-20220614183709-0990d3a1bba2/go.mod h1:Flb5I7BbBmjZ3jjKtw0DEsoMcsYxFkCQ8X8EkJ8AGbM=
+github.com/bachtiarfr/my-go-library v1.0.0 h1:PBbaGnNvNXUmwoopG+Q3wlSPoh7g0LfykPxzwTnkDA8=
+github.com/bachtiarfr/my-go-library v1.0.0/go.mod h1:Flb5I7BbBmjZ3jjKtw0DEsoMcsYxFkCQ8X8EkJ8AGbM=
+github.com/bachtiarfr/my-go-library/v2 v2.0.0 h1:9Oy7mQnjAMFZK9UUq3GQavOO4JXXAdpTKHsUxDtZNPg=
+github.com/bachtiarfr/my-go-library/v2 v2.0.0/go.mod h1:hjttcZJGsbwzjn0epNPH9eKIXH9RK7GMchd/l6UON1o=
