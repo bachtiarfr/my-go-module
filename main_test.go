@@ -15,19 +15,29 @@ func TestCekBilanganGanjilGenapV1(t *testing.T) {
 			param  int
 		}{
 			{
-				name	 : "Input 1 number #01",
+				name	 : "#01",
 				expected : "Ganjil",
 				param	 : 1,
 			},
 			{
-				name	 : "Input 1 number #02",
+				name	 : "#02",
 				expected : "Genap",
 				param	 : 2,
 			},
 			{
-				name	 : "Input 1 number #03",
+				name	 : "#03",
 				expected : "Ganjil",
 				param	 : 3,
+			},
+			{
+				name	 : "#04",
+				expected : "Genap",
+				param	 : 4,
+			},
+			{
+				name	 : "#05",
+				expected : "Ganjil",
+				param	 : 5,
 			},
 		}
 
@@ -49,14 +59,29 @@ func TestCekBilanganGanjilGenapV2(t *testing.T) {
 			param  []int
 		}{
 			{
-				name	 : "#1",
+				name	 : "#01",
 				expected : []string {"ganjil", "genap", "ganjil", "genap", "ganjil"},
 				param	 : []int{1, 2, 3, 4, 5},
 			},
 			{
-				name	 : "#1",
+				name	 : "#02",
 				expected : []string {"genap", "genap", "ganjil", "genap", "ganjil"},
 				param	 : []int{12, 22, 39, 44, 5},
+			},
+			{
+				name	 : "#03",
+				expected : []string {"genap", "genap", "genap", "genap", "ganjil"},
+				param	 : []int{30, 22, 12, 44, 5},
+			},
+			{
+				name	 : "#04",
+				expected : []string {"ganjil", "genap", "genap", "genap", "ganjil"},
+				param	 : []int{11, 22, 2, 44, 15},
+			},
+			{
+				name	 : "#05",
+				expected : []string {"ganjil", "genap", "ganjil", "genap", "ganjil"},
+				param	 : []int{5, 4, 3, 2, 1},
 			},
 		}
 
