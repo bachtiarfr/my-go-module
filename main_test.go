@@ -22,7 +22,7 @@ func TestCekBilanganGanjilGenapV1(t *testing.T) {
 			{
 				name	 : "Input 1 number #02",
 				expected : "Genap",
-				param	 : 5,
+				param	 : 2,
 			},
 			{
 				name	 : "Input 1 number #03",
@@ -55,13 +55,8 @@ func TestCekBilanganGanjilGenapV2(t *testing.T) {
 			},
 			{
 				name	 : "#1",
-				expected : []string {"genap", "ganjil", "genap", "genap", "ganjil"},
-				param	 : []int{10, 27, 36, 4, 15},
-			},
-			{
-				name	 : "#1",
 				expected : []string {"genap", "genap", "ganjil", "genap", "ganjil"},
-				param	 : []int{1, 2, 3, 4, 5},
+				param	 : []int{12, 22, 39, 44, 5},
 			},
 		}
 
@@ -72,5 +67,11 @@ func TestCekBilanganGanjilGenapV2(t *testing.T) {
 			result := checkOddEvenV2.CekGanjilGenap(test.param...)
 			assert.Equal(result, test.expected)
 		})
+	}
+}
+
+func BenchmarkCekGanjilGenapV2(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		checkOddEvenV2.CekGanjilGenap(1, 2, 3, 4, 5)
 	}
 }
