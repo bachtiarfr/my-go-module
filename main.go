@@ -10,8 +10,8 @@ import (
 
 func main() {
 	hello.SayHello()
-	result := checkOddEvenV1.CekGanjilGenap(10)
-	result2 := checkOddEvenV2.CekGanjilGenap(11, 23, 34, 45, 56, 67, 78, 89, 90)
+	result := checkOddEvenV1.CekGanjilGenap(1)
+	result2 := checkOddEvenV2.CekGanjilGenap(1, 2, 3, 4, 5)
 
 	fmt.Println("V1 :", result)
 	fmt.Println("V2 :", result2)
